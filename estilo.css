@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(252, 250, 254);
+    border: 2px solid white;
+    width: 80%;
+    height: 100vh;
+    margin: 2% 3%;
+    font-family:Arial, Helvetica, sans-serif
+}
+.contenedor_izquierda{
+    width: 50%;
+    height: 100%;
+    background-image: url("Logo\ -\ Redbubble\ \(1\).png");
+    background-size: 60% 70%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    float: left;
+    padding: left;
+
+}
+.contenedor_derecha{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+}
+form{
+    border: 2px solid royalblue;
+    width: 60%;
+    height: 70%;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    font-size: 2em;
+    color: royalblue;
+    margin: 24px 0px;
+}
+form > input{
+    width: 100%;
+    padding: 8px 5px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid royalblue;
+    margin: 20px 10px;
+    cursor: pointer;
+}
+.cajacheck{
+    width: 100%;
+    margin: 20px 0px;
+}
+input[type="submit"]{
+    background-color: royalblue;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+   width: 8opx;
+}
+input[type="submit"]:hover{
+    background-color: rgb(10, 124, 223);
+    color: rgb(255, 255, 255);
+    transition: 1.5rem;
+    
+}
